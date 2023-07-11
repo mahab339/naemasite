@@ -39,3 +39,5 @@ and its main element to
     <a class="site-title" rel="author" href="../../index.html">نعيما</a>
 and set link of main css to href="../assets/main.css"
 and set its main element from "C:\Users\mabdu\Ofpozan\N3ema\Website in arabic 2\Changes after build".
+~ Add favicon element to all pages, modify ref accordingly
+  <link rel="shortcut icon" type="image/png" href="appicon.jpg">.
