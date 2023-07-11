@@ -1,4 +1,0 @@
- On arabic site:
- bundle exec jekyll serve -P 4001 –no-watch
- On english site:
-bundle exec jekyll build --trace
