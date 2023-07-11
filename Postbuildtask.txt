@@ -1,0 +1,34 @@
+~ Set header of index.html to 
+<div class="trigger">
+  <a class="page-link" href="../index.html">العربية</a>
+  <a class="page-link" href="policy/index.html">Privacy Policy</a>
+</div>
+and naema link to href="index.html".
+and remove trailing / in href="/assets/main.css".
+~ Set privacy policy/index.html to 
+<div class="trigger">
+  <a class="page-link" href="../../index.html">العربية</a>
+  <a class="page-link" href="index.html">Privacy Policy</a>
+</div>
+and naema link to href="../index.html".
+and set link of main css to href="../assets/main.css".
+~ Add text-align: left; to first selectors in main css.
+      direction: ltr;
+~ Add  font-size: smaller; to .site-nav .page-link:not(:last-child) selector in main.css.
+~ Move index.html from ar to root folder and change links of its header to
+    <div class="trigger">
+      <a class="page-link" href="ar/policy/index.html">سياسة الخصوصيه</a>
+      <a class="page-link Language" href="en/index.html">English</a>
+    </div>
+  </nav>
+    <a class="site-title" rel="author" href="index.html">نعيما</a>
+and its style sheet to link href="ar/assets/main.css".
+~ In header of policy/index.html of arabic site
+    <div class="trigger">
+        <a class="page-link" href="index.html">سياسة الخصوصيه</a>
+        <a class="page-link Language" href="../../en/index.html">English</a>
+    </div>
+  </nav>
+    <a class="site-title" rel="author" href="../../index.html">نعيما</a>
+and set link of main css to href="assets/main.css"
+and set its main element from "C:\Users\mabdu\Ofpozan\N3ema\Website in arabic 2\Changes after build".
