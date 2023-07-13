@@ -1,13 +1,13 @@
 ~ Set header of index.html to 
 <div class="trigger">
-  <a class="page-link" href="../index.html">العربية</a>
+  <a class="page-link Language" href="../index.html">العربية</a>
   <a class="page-link" href="policy/index.html">Privacy Policy</a>
 </div>
 and naema link to href="index.html".
 and remove trailing / in href="/assets/main.css".
 ~ Set privacy policy/index.html to 
 <div class="trigger">
-  <a class="page-link" href="../../index.html">العربية</a>
+  <a class="page-link Language" href="../../index.html">العربية</a>
   <a class="page-link" href="index.html">Privacy Policy</a>
 </div>
 and naema link to href="../index.html".
@@ -26,18 +26,18 @@ and its style sheet to link href="ar/assets/main.css"
 and its main element to 
   <div class="wrapper">
     <div class="home">
-      <h3 id="rethinking-waiting">لاعادة تصور الانتظار.</h3>
-      <p>وجب علينا التفكير في اشياء كثيرة نقوم بها ربما نستطيع توفير وقت اكبر بقليل تنظيم. ولأن الوقت من ذهب ولا يعود ولا يعوض، جاء برنامج نعيما لحجز مواعيد محلات وصوالين الحلاقة. سترى صور الصالون لتتعرف على مستوى الخدمة التي تتوقعها، وسترى موقع المحل على الخريطة وبماذا يبعد عنك. بخطوات قليلة تستطيع حجز وقت لحلاقتك لتتواجد قبلها بخمس دقائق فقط دون استهلاك وقت اكبر في انتظار دورك.</p>
+      ----- Copy from former site -----
      </div>
    </div>
 ~ In header of policy/index.html of arabic site
     <div class="trigger">
         <a class="page-link" href="index.html">سياسة الخصوصيه</a>
-        <a class="page-link Language" href="../../en/index.html">English</a>
+        <a class="page-link Language" href="../../en/policy/index.html">English</a>
     </div>
   </nav>
     <a class="site-title" rel="author" href="../../index.html">نعيما</a>
 and set link of main css to href="../assets/main.css"
 and set its main element from "C:\Users\mabdu\Ofpozan\N3ema\Website in arabic 2\Changes after build".
 ~ Add favicon element to all pages, modify ref accordingly
-  <link rel="shortcut icon" type="image/png" href="appicon.jpg">.
+  <link rel="shortcut icon" type="image/png" href="ar/assets/appicon.jpg">.
+- Add main.css from former root and reference it in all pages.
