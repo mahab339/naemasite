@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Dubai';
+    src: url('ar/assets/Fonts/Dubai-regular.ttf');
+}
+
+@font-face {
+    font-family: 'Dubailight';
+    src: url('ar/assets/Fonts/Dubai-light.ttf');
+}
+
+@font-face {
+    font-family: 'Dubaimedium';
+    src: url('ar/assets/Fonts/Dubai-medium.ttf');
+}
+
+.site-title {
+    font-family: Dubai;
+}
+
+@media screen and (max-width: 600px) {
+    .site-title {
+        margin-right: 50px;
+    }
+}
+
+.page-link {
+    font-family: Dubailight;
+}
+
+.Activenavigationitem {
+    border-top: 4px solid rgb(0, 150, 250);
+}
+
+.Language {
+    font-weight: lighter;
+    font-size: 7px;
+    margin-left: 20px;
+}
+
+h3 {
+    font-family: Dubaimedium;
+}
+
+
+p {
+    font-family: Dubai;
+}
+
+b {
+    font-family: Dubailight;
+}
