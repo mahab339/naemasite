@@ -39,5 +39,5 @@ and its main element to
 and set link of main css to href="../assets/main.css"
 and set its main element from "C:\Users\mabdu\Ofpozan\N3ema\Website in arabic 2\Changes after build".
 ~ Add favicon element to all pages, modify ref accordingly
-  <link rel="shortcut icon" type="image/png" href="ar/assets/Appicon.jpg">.
+  <link rel="shortcut icon" type="image/png" href="ar/assets/appicon.jpg">.
 - Add main.css from former root and reference it in all pages.
