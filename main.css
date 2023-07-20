@@ -1,3 +1,5 @@
+/* Naema site modifications*/
+
 @font-face {
     font-family: 'Dubai';
     src: url('ar/assets/Fonts/Dubai-regular.ttf');
@@ -55,3 +57,39 @@ p {
 b {
     font-family: Dubailight;
 }
+
+
+.contact-list, .social-media-list .help {
+    font-size: xx-small;
+}
+
+.Horizontalstack {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+
+.Latinhorizontalstack {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+}
+
+img.Headerlogo {
+    width: 44px;
+    height: 42px;
+}
+.Headerlayout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-container {
+    display: flex;
+}
+
